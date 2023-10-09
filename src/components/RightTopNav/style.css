@@ -1,0 +1,25 @@
+.right-top-nav {
+  align-items: center;
+  background-color: var(--retink-colour-styleretink-primary-purplelight);
+  border: 1px solid;
+  border-color: var(--retink-colour-styleretink-primary-purplelight-active);
+  box-shadow: var(--topright-nav-hover);
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 1px 7px;
+  position: relative;
+}
+
+.right-top-nav .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 58px;
+  justify-content: center;
+  position: relative;
+}
+
+.right-top-nav .class {
+  flex: 0 0 auto !important;
+}

@@ -1,0 +1,1 @@
+export { PropertyLogoWoWrapper } from "./PropertyLogoWoWrapper";

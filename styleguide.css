@@ -1,0 +1,35 @@
+:root {
+  --display-1-font-family: "Moranga-Medium", Helvetica;
+  --display-1-font-size: 48px;
+  --display-1-font-style: normal;
+  --display-1-font-weight: 500;
+  --display-1-letter-spacing: 0px;
+  --display-1-line-height: normal;
+  --dropshadow-1: 0px 7px 64px 0px rgba(0, 0, 0, 0.07);
+  --grey-3: rgba(235, 234, 239, 1);
+  --heading-2-font-family: "Raleway-SemiBold", Helvetica;
+  --heading-2-font-size: 24px;
+  --heading-2-font-style: normal;
+  --heading-2-font-weight: 600;
+  --heading-2-letter-spacing: 0px;
+  --heading-2-line-height: normal;
+  --heading-3-font-family: "Raleway-SemiBold", Helvetica;
+  --heading-3-font-size: 16px;
+  --heading-3-font-style: normal;
+  --heading-3-font-weight: 600;
+  --heading-3-letter-spacing: 0px;
+  --heading-3-line-height: 22px;
+  --hover-shadow1: 0px 7px 12px 0px rgba(70, 61, 97, 0.2);
+  --retink-colour-styleretink-blue-greyblue-700: rgba(119, 115, 127, 1);
+  --retink-colour-styleretink-greyretink-dark-grey: rgba(29, 20, 55, 1);
+  --retink-colour-styleretink-greyretink-grey0: rgba(244, 243, 246, 1);
+  --retink-colour-styleretink-greyretink-grey05: rgba(77, 73, 89, 1);
+  --retink-colour-styleretink-primary-purplelight: rgba(241, 237, 253, 1);
+  --retink-colour-styleretink-primary-purplelight-active: rgba(212, 200, 248, 1);
+  --retink-colour-styleretink-primary-purplelight-hover: rgba(234, 228, 252, 1);
+  --retink-colour-styleretink-primary-purplenormal: rgba(117, 77, 232, 1);
+  --retink-colour-styleretink-primary-purplenormal-active: rgba(94, 62, 186, 1);
+  --topright-nav-hover: ;
+  --UI-cards-hover: 0px 7px 20px 0px rgba(53, 35, 104, 0.1);
+  --white: rgba(255, 255, 255, 1);
+}

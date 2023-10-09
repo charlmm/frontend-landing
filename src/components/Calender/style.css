@@ -1,0 +1,45 @@
+.calender {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.calender .calendar {
+  height: 28px !important;
+  position: relative !important;
+  width: 28px !important;
+}
+
+.calender .hover-2 {
+  background-color: var(--retink-colour-styleretink-primary-purplenormal);
+  border-radius: 200px 200px 0px 0px;
+  height: 3px;
+  position: relative;
+  width: 47px;
+}
+
+.calender.hover {
+  background-color: var(--retink-colour-styleretink-greyretink-grey0);
+  border-radius: 10px;
+  display: inline-flex;
+  gap: 12px;
+  overflow: hidden;
+  padding: 24px;
+}
+
+.calender.default {
+  display: inline-flex;
+  gap: 12px;
+  padding: 24px;
+}
+
+.calender.selected {
+  background-color: var(--retink-colour-styleretink-primary-purplelight-hover);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  overflow: hidden;
+  padding: 24px 15px 0px;
+  width: 77px;
+}

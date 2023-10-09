@@ -1,0 +1,1 @@
+export { MdiLogoutVariant } from "./MdiLogoutVariant";

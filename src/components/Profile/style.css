@@ -1,0 +1,43 @@
+.profile {
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.profile .components-avatar-round-rectangle-s {
+  position: relative !important;
+}
+
+.profile .hover-4 {
+  background-color: var(--retink-colour-styleretink-primary-purplenormal);
+  border-radius: 200px 200px 0px 0px;
+  height: 3px;
+  position: relative;
+  width: 47px;
+}
+
+.profile.property-1-0-hover {
+  background-color: var(--retink-colour-styleretink-greyretink-grey0);
+  display: inline-flex;
+  gap: 10px;
+  overflow: hidden;
+  padding: 18px;
+}
+
+.profile.property-1-0-default {
+  display: inline-flex;
+  gap: 10px;
+  padding: 18px;
+}
+
+.profile.property-1-0-active {
+  background-color: var(--retink-colour-styleretink-primary-purplelight-hover);
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  height: 76px;
+  overflow: hidden;
+  padding: 22px 15px 0px;
+  width: 77px;
+}

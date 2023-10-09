@@ -1,0 +1,47 @@
+.notification {
+  position: relative;
+}
+
+.notification .instance-node {
+  height: 28px !important;
+  position: relative !important;
+  width: 28px !important;
+}
+
+.notification .hover-3 {
+  background-color: var(--retink-colour-styleretink-primary-purplenormal);
+  border-radius: 200px 200px 0px 0px;
+  height: 3px;
+  position: relative;
+  width: 47px;
+}
+
+.notification.property-1-hover {
+  align-items: flex-start;
+  background-color: var(--retink-colour-styleretink-greyretink-grey0);
+  border-radius: 10px;
+  display: inline-flex;
+  gap: 12px;
+  overflow: hidden;
+  padding: 24px;
+}
+
+.notification.property-1-default {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 12px;
+  padding: 24px;
+}
+
+.notification.property-1-active {
+  align-items: center;
+  background-color: var(--retink-colour-styleretink-primary-purplelight-hover);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 24px 15px 0px;
+  width: 77px;
+}

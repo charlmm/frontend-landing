@@ -1,0 +1,61 @@
+.property-l-wrapper {
+  all: unset;
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 8px;
+  position: relative;
+}
+
+.property-l-wrapper .frame-wrapper {
+  align-items: center;
+  background-color: var(--white);
+  border: 2px solid;
+  border-color: var(--retink-colour-styleretink-primary-purplenormal);
+  border-radius: 20px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 13px 48px;
+  position: relative;
+}
+
+.property-l-wrapper .div-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.property-l-wrapper .text-2 {
+  color: var(--retink-colour-styleretink-primary-purplenormal);
+  font-family: var(--heading-3-font-family);
+  font-size: var(--heading-3-font-size);
+  font-style: var(--heading-3-font-style);
+  font-weight: var(--heading-3-font-weight);
+  letter-spacing: var(--heading-3-letter-spacing);
+  line-height: var(--heading-3-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-l-wrapper .secondary-disabled-true {
+  opacity: 0.6;
+}
+
+.property-l-wrapper:hover .frame-wrapper {
+  background: linear-gradient(180deg, rgb(233.74, 0, 34.09) 0%, rgb(117, 77, 232) 100%);
+  border-color: var(--retink-colour-styleretink-primary-purplelight);
+  box-shadow: var(--hover-shadow1);
+}
+
+.property-l-wrapper:hover .text-2 {
+  color: var(--white);
+}

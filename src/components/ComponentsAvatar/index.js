@@ -1,0 +1,1 @@
+export { ComponentsAvatar } from "./ComponentsAvatar";
